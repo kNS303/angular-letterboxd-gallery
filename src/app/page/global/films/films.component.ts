@@ -1,4 +1,4 @@
-import { FilmsIndies, FilmsTerror } from './../models/netflix-model';
+import { FilmsTerror } from './../models/netflix-model';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class FilmsComponent implements OnInit {
   @Input () public filmsTerror!: FilmsTerror
-  @Input () public filmsIndies!: FilmsIndies
+ 
 
   constructor() { }
 

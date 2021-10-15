@@ -2,7 +2,6 @@ export interface NetflixModel {
     nav: Nav;
     hero: Hero; 
     filmsTerror: FilmsTerror;
-    filmsIndies: FilmsIndies;
 }
 
 export interface Nav {
@@ -22,10 +21,6 @@ export interface FilmsTerror {
     imgGallery: Img[];
 }
 
-export interface FilmsIndies {
-    title: string;
-    imgGallery: Img[];
-}
 
 export interface Img {
     src: string;

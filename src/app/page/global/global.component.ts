@@ -1,4 +1,4 @@
-import { NetflixModel } from './models/netflix-model';
+import { NetflixModel, FilmsTerror } from './models/netflix-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GlobalComponent implements OnInit {
   public netflixModel: NetflixModel;
-
+  public filmsIndies: FilmsTerror; 
   constructor() {
     this.netflixModel = {
       nav: {
@@ -70,32 +70,32 @@ export class GlobalComponent implements OnInit {
           }, 
         ]
       },
-      filmsIndies: {
-        title: "Películas Indies",
-        imgGallery: [
-          {
-            src: 'https://www.moviepostersgallery.com/wp-content/uploads/2021/09/Lamb1.jpg',
-            alt: 'LAMB',
-          },
-          {
-            src: 'https://www.moviepostersgallery.com/wp-content/uploads/2019/10/Midsommar2-1.jpg',
-            alt: 'MIDSOMMAR',
-          },
-          {
-            src: 'https://www.moviepostersgallery.com/wp-content/uploads/2019/10/Lighthouse2.jpg',
-            alt: 'THE LIGHTHOUSE',
-          },
-          {
-            src: 'https://www.moviepostersgallery.com/wp-content/uploads/2018/G-H/Getout2.jpg',
-            alt: 'GET OUT',
-          },
-          {
-            src: 'https://www.moviepostersgallery.com/wp-content/uploads/2018/11/Mondoannihilation1.jpg',
-            alt: 'ANNIHILATION',
-          }, 
-        ]
-      }
     };
+    this.filmsIndies = {
+      title: "Películas Indies",
+      imgGallery: [
+        {
+          src: 'https://www.moviepostersgallery.com/wp-content/uploads/2021/09/Lamb1.jpg',
+          alt: 'LAMB',
+        },
+        {
+          src: 'https://www.moviepostersgallery.com/wp-content/uploads/2019/10/Midsommar2-1.jpg',
+          alt: 'MIDSOMMAR',
+        },
+        {
+          src: 'https://www.moviepostersgallery.com/wp-content/uploads/2019/10/Lighthouse2.jpg',
+          alt: 'THE LIGHTHOUSE',
+        },
+        {
+          src: 'https://www.moviepostersgallery.com/wp-content/uploads/2018/G-H/Getout2.jpg',
+          alt: 'GET OUT',
+        },
+        {
+          src: 'https://www.moviepostersgallery.com/wp-content/uploads/2018/11/Mondoannihilation1.jpg',
+          alt: 'ANNIHILATION',
+        }, 
+      ]
+    }
   }
 
   ngOnInit(): void {}
