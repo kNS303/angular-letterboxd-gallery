@@ -1,0 +1,30 @@
+.filmsTerror-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: solid 5px rgb(46, 46, 46);
+
+    h2 {
+        margin-bottom: 15px;
+        padding:6px;
+        border: solid rgb(46, 46, 46) 3px;
+    }
+    
+
+} 
+
+.filmsTerror-container .filmsTerror-gallery {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.filmsTerror-container .filmsTerror-gallery .filmsTerror-gallery-pics {
+    width: 70%;
+    padding: 5px;
+    margin: 20px;
+    box-shadow: 0 0 15px;
+}

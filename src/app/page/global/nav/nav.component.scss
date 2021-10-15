@@ -1,0 +1,32 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+    border-bottom: solid rgb(46, 46, 46) 5px;
+
+    .nav-container h1 {
+    
+    
+    }
+        
+        
+
+
+
+    img {
+        width: 70px;
+        padding: 20px;
+    }
+
+    .nav-container .nav-searcher {
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+

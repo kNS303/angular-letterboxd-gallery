@@ -1,0 +1,9 @@
+<div class="filmsTerror-container">
+  <h2> {{ filmsTerror.title }}</h2>
+
+  <div class="filmsTerror-gallery" *ngFor="let img of filmsTerror.imgGallery">
+    <img class="filmsTerror-gallery-pics" src="{{ img.src }}" alt="{{ img.alt }}" />
+  </div>
+</div>
+
+
