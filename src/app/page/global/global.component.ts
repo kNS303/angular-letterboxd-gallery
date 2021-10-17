@@ -1,4 +1,4 @@
-import { NetflixModel, FilmsTerror } from './models/netflix-model';
+import { LetterboxdModel, FilmsTerror } from './models/letterboxd-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./global.component.scss'],
 })
 export class GlobalComponent implements OnInit {
-  public netflixModel: NetflixModel;
+  public letterboxdModel: LetterboxdModel;
   public filmsIndies: FilmsTerror; 
   constructor() {
-    this.netflixModel = {
+    this.letterboxdModel = {
       nav: {
         titleWarner: 'Letterboxd Movie Gallery',
         titleHome: 'Inicio',
@@ -69,6 +69,13 @@ export class GlobalComponent implements OnInit {
             alt: 'THE THING',
           }, 
         ]
+      },
+      insertNewPoster: {
+       title: "¿Crees que falta algún Poster? ¡Inserta aquí el que quieras!",
+       img: {
+        src: 'https://www.bing.com/th/id/OGC.ac6ae5e7487b2b30e49780afb1e4469d?pid=1.7&rurl=https%3A%2F%2Fwww.memoryfoamtalk.com%2Fwp-content%2Fuploads%2F2017%2F09%2Farrow-down1.gif&ehk=LTKAhfj9SHZw9TbmVT3fZ%2Boy0D5E8kF3j77wz6jQtz8%3D',
+        alt: 'Flecha Logo',
+      }, 
       },
     };
     this.filmsIndies = {

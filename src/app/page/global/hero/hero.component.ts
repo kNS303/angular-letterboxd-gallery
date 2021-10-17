@@ -1,4 +1,4 @@
-import { Hero } from './../models/netflix-model';
+import { Hero } from './../models/letterboxd-model';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({

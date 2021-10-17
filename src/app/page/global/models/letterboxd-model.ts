@@ -1,7 +1,8 @@
-export interface NetflixModel {
+export interface LetterboxdModel {
     nav: Nav;
     hero: Hero; 
     filmsTerror: FilmsTerror;
+    insertNewPoster: InsertNewPoster;
 }
 
 export interface Nav {
@@ -28,5 +29,16 @@ export interface Img {
 }
 
 export interface Gallery {
+    img: Img;
+}
+
+export interface InsertNewPoster {
+
+    title: string;
+    img: Img;
+
+}
+
+export interface newposter {
     img: Img;
 }

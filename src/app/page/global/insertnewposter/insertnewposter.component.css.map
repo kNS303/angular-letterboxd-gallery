@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CAMtB;;AAXD,AAOI,sBAPkB,CAOlB,OAAO,CAAC;EACJ,KAAK,EAAE,EAAE;EACT,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "insertnewposter.component.scss"
+    ],
+    "names": [],
+    "file": "insertnewposter.component.css"
+}

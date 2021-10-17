@@ -1,0 +1,40 @@
+.filmsTerror-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
+  border-bottom: solid 5px #2e2e2e;
+}
+
+.filmsTerror-container h2 {
+  margin-bottom: 15px;
+  padding: 6px;
+  border: solid #2e2e2e 3px;
+}
+
+.filmsTerror-container .filmsTerror-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.filmsTerror-container .filmsTerror-gallery .filmsTerror-gallery-pics {
+  width: 70%;
+  padding: 5px;
+  margin: 20px;
+  -webkit-box-shadow: 0 0 15px;
+          box-shadow: 0 0 15px;
+}
+/*# sourceMappingURL=films.component.css.map */

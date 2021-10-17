@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Nav } from '../models/netflix-model';
+import { Nav } from '../models/letterboxd-model';
 
 @Component({
   selector: 'app-nav',

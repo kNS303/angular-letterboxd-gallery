@@ -1,4 +1,4 @@
-import { FilmsTerror } from './../models/netflix-model';
+import { FilmsTerror } from './../models/letterboxd-model';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({

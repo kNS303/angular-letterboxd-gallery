@@ -1,0 +1,13 @@
+
+<div class="container-insert-full">
+<h1>{{insertNewPoster.title}}</h1>
+<img class= "flecha" src="{{insertNewPoster.img.src}}" alt="{{insertNewPoster.img.src}}">
+<input #inputPoster type="text" (keyup)= "soltarTeclado(inputPoster.value)"/>      
+</div>
+
+<div>
+
+    <app-newposter [posterMandado]="posterMandado"> </app-newposter>
+
+
+</div>
