@@ -11,6 +11,7 @@ export class NewposterComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
 }

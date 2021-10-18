@@ -1,13 +1,23 @@
-
 <div class="container-insert-full">
-<h1>{{insertNewPoster.title}}</h1>
-<img class= "flecha" src="{{insertNewPoster.img.src}}" alt="{{insertNewPoster.img.src}}">
-<input #inputPoster type="text" (keyup)= "soltarTeclado(inputPoster.value)"/>      
+  <h1>{{ insertNewPoster.title }}</h1>
+  <img
+    class="flecha"
+    src="{{ insertNewPoster.img.src }}"
+    alt="{{ insertNewPoster.img.src }}"
+  />
+  <input #inputPoster type="text" (keyup)="soltarTeclado(inputPoster.value)" />
+</div>
+
+
+
+<div>
+  <app-newposter [posterMandado]="posterMandado"> </app-newposter>
 </div>
 
 <div>
-
-    <app-newposter [posterMandado]="posterMandado"> </app-newposter>
-
-
+  <app-newposter2 [posterMandado]="posterMandado"> </app-newposter2>
 </div>
+
+<div>
+    <app-newposter3 [posterMandado]="posterMandado"> </app-newposter3>
+  </div>
